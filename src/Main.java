@@ -68,7 +68,6 @@ public class Main {
             System.out.println("Год" + i + "Численность населения состава" + people + "людей");
         }
 
-
         System.out.println("Задание 13");
         int bak = 15000;
         int allSumme = 12000000;
@@ -85,6 +84,7 @@ public class Main {
         allSumme += allSumme * 0.07;
         i++;
         if (i % 6 == 0) {
+        }
             System.out.println("Месяц" + i + "Сумма накоплений равна" + allSumme + "рублей");
         }
 
